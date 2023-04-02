@@ -81,7 +81,7 @@ const index = () => {
       {navbar === 2 && (
         <div className=" ">
           {/* top navbar */}
-          <div className="top_navbar my-2 section_padding place-items-center  grid grid-cols-3">
+          <div className="top_navbar my-2 section_padding   grid grid-cols-3">
             {/* Information */}
             <div className="info">
               <ul className="flex">
@@ -106,8 +106,8 @@ const index = () => {
             </div>
 
             {/* Button */}
-            <div className="button flex justify-end ">
-              <ul className="flex">
+            <div className="button ">
+              <ul className="flex items-center justify-end w-full">
                 <li>
                   <a href="#" className="px-2 flex items-center ">
                     <span className="material-symbols-outlined text-lg">
