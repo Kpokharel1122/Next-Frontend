@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 const index = () => {
-  const [navbar, setNavbar] = useState<Number>(1);
+  const [navbar, setNavbar] = useState<Number>(2);
   return (
     <>
       {navbar === 1 && (
@@ -79,8 +79,8 @@ const index = () => {
           <div className="navbar_icons absolute bottom-0 left-0 w-full section_padding  !py-2  bg-gray-100 hidden max-[1180px]:block">
             <ul className="flex justify-between">
               <li>
-                <a href="#" className="px-6 flex flex-col justify-center items-center">
-                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                <a href="#" className="flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold text-3xl">
                     home
                   </span>
                   Home
@@ -88,32 +88,32 @@ const index = () => {
               </li>
               {/* <li><a href="#"></a></li> */}
               <li>
-              <a href="#" className="px-6 flex flex-col justify-center items-center">
-                  <span className="material-symbols-outlined bold px-2 text-3xl">
+              <a href="#" className=" flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold pr-2 text-3xl">
                     home
                   </span>
                   Home
                 </a>
               </li>
               <li>
-              <a href="#" className="px-6 flex flex-col justify-center items-center">
-                  <span className="material-symbols-outlined bold px-2 text-3xl">
+              <a href="#" className=" flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold pr-2 text-3xl">
                     home
                   </span>
                   Home
                 </a>
               </li>
               <li>
-              <a href="#" className="px-6 flex flex-col justify-center items-center">
-                  <span className="material-symbols-outlined bold px-2 text-3xl">
+              <a href="#" className=" flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold pr-2 text-3xl">
                     home
                   </span>
                   Home
                 </a>
               </li>
               <li>
-              <a href="#" className="px-6 flex flex-col justify-center items-center">
-                  <span className="material-symbols-outlined bold px-2 text-3xl">
+              <a href="#" className=" flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold pr-2 text-3xl">
                     home
                   </span>
                   Home
