@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 const index = () => {
-  const [navbar, setNavbar] = useState<Number>(2);
+  const [navbar, setNavbar] = useState<Number>(1);
   return (
     <>
       {navbar === 1 && (
