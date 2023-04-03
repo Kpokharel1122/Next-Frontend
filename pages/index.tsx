@@ -13,7 +13,7 @@ const index = () => {
             <p className="text-primary text-3xl font-bold ">Edu-Keshan</p>
           </div>
           {/* Navbar links */}
-          <div className="navbar_icons">
+          <div className="navbar_icons max-[1180px]:hidden">
             <ul className="flex">
               <li>
                 <a href="#" className="px-6 flex items-center">
@@ -73,6 +73,51 @@ const index = () => {
                 >
                   Sign up
                 </div>
+              </li>
+            </ul>
+          </div>
+          <div className="navbar_icons absolute bottom-0 left-0 w-full section_padding  !py-2  bg-gray-100 hidden max-[1180px]:block">
+            <ul className="flex justify-between">
+              <li>
+                <a href="#" className="px-6 flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                    home
+                  </span>
+                  Home
+                </a>
+              </li>
+              {/* <li><a href="#"></a></li> */}
+              <li>
+              <a href="#" className="px-6 flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                    home
+                  </span>
+                  Home
+                </a>
+              </li>
+              <li>
+              <a href="#" className="px-6 flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                    home
+                  </span>
+                  Home
+                </a>
+              </li>
+              <li>
+              <a href="#" className="px-6 flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                    home
+                  </span>
+                  Home
+                </a>
+              </li>
+              <li>
+              <a href="#" className="px-6 flex flex-col justify-center items-center">
+                  <span className="material-symbols-outlined bold px-2 text-3xl">
+                    home
+                  </span>
+                  Home
+                </a>
               </li>
             </ul>
           </div>
