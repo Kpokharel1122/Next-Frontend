@@ -32,8 +32,14 @@ html{
   'opsz' 48
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:1024px){
   .section_padding{
     padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .section_padding{
+    padding: 0 15px;
   }
 }
